@@ -1,0 +1,94 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<header class="text-center btn-block" style="max-width:500px;">
+  <h4>Free Code Camp Weather App</h4>
+</header>
+<body>
+  <div class="container-fluid overlay animatedBcolor ">
+    <div class="backdrop" style="margin-top:20px;padding:10px;margin-bottom:5px;color:white;  text-shadow: 1px 1px 4px black;
+"><strong>
+  <i class="material-icons" style="font-size:20px;color:red">location_on</i>
+  <p1 id="infoLocation" class="text-right" style="font-size:20px;">Location Here<p1>
+  </strong>
+    </div>
+    <div class="row">
+      <div class="col-xs-5">
+        <div id="infoDate" class="text-left backdrop" style="padding:5px;margin-top:10px;margin-bottom:5px;">Today's Date</b>
+        </div>
+        <div id="infoTime" class="text-left backdrop " style="padding:5px;">Current Time</b>
+        </div>
+      </div>
+      <div class="col-xs-1"></div>
+      <div class="text-center btn backdrop col-xs-5" style="margin-top:20px;padding:30px;">
+        <h1 id="infoTemp" style="font-family:Calibri;font-size:30pt;margin-left:-15px;">80</h1>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="backdrop col-xs-5" style="padding:10px;margin-left:10px;margin-top:-30px;margin-bottom:30px;">
+
+
+        <div id="infoDescription" class="text-center" style="font-size:10pt;padding:5px;margin-top:5px;margin-bottom:5px;">Partly Cloudy</div>
+
+
+
+         <div class="text-center all-icon" style="padding-bottom:10px;margin-left:-20px;">
+          <div class="icon sun-shower hide ">
+            <div class="cloud"></div>
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+            <div class="rain"></div>
+          </div>
+          <div class="icon thunder-storm hide thunderstorm">
+            <div class="cloud"></div>
+            <div class="lightning">
+              <div class="bolt"></div>
+              <div class="bolt"></div>
+            </div>
+          </div>
+          <div class="icon cloudy hide clouds">
+            <div class="cloud"></div>
+            <div class="cloud"></div>
+          </div>
+          <div class="icon flurries hide snow">
+            <div class="cloud"></div>
+            <div class="snow">
+              <div class="flake"></div>
+              <div class="flake"></div>
+            </div>
+          </div>
+          <div class="icon sunny hide clear">
+            <div class="sun">
+              <div class="rays"></div>
+            </div>
+          </div>
+          <div class="icon rainy hide rain">
+            <div class="cloud"></div>
+            <div class="rain"></div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="col-xs-6">
+        <div id="infoHL" class="text-right backdrop" style="padding:5px;margin-top:50px;margin-bottom:5px;">High/Low</div>
+        <div id="infoHum" class="text-right backdrop" style="padding:5px;margin-top:10px;margin-bottom:5px;">Humidity</div>
+      </div>
+    </div>
+    </div>
+
+  </div>
+  </div>
+</body>
